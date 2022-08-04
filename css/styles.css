@@ -1,0 +1,1880 @@
+
+
+header {
+    width: 100%;
+    border-bottom: 2px solid #84bd00;
+    height: 140px; 
+  
+  
+}
+
+
+.nav-list {
+  list-style: none;
+  font-size: 16px;
+  font-family: Roboto;
+  line-height: 65px;
+ 
+
+  
+ 
+
+}
+
+
+    
+
+
+
+
+input {
+    border: 1px solid black;
+   
+}
+
+.form-control.success input {
+    border: 2px solid green;
+}
+
+.form-control.error input {
+    border: 2px solid red;
+}
+
+.form-control.error textarea {
+    border: 2px solid red;
+}
+.form-control.success textarea {
+    border: 2px solid green;
+}
+
+
+.payment-form.error input {
+    border: 2px solid red; 
+}
+
+.payment-form.success input {
+    border: 2px solid green; 
+}
+
+.logo {
+    width: 160px;
+     height: 93px;
+  }
+
+
+
+
+.list-one li {
+    display: inline-block;
+    font-weight: 100;
+     padding: 11px 12px;
+  
+
+   
+    
+    
+}
+
+@font-face {
+    font-family: Roboto;
+    src: url(../fonts/RobotoSlab.ttf);
+}
+
+.list-one a {
+    display: block;
+    text-decoration: none;
+    color: black;
+   
+}
+
+.current  {
+    border-right: 3px solid#84bd00;
+    height: 107px;
+    padding: 12px 17px;
+    
+   
+
+   
+ 
+}
+
+
+
+.donate {  
+   height: 119px;
+   width: 100%;
+   margin-bottom: 65px;
+   margin-right: 48px;
+   text-align: center;
+ 
+ 
+ 
+}
+
+
+.image-1 {
+margin-left: 40px;
+margin-top: 15px;
+float: left;  
+ 
+}
+
+
+.heading {
+    color: #1189c1;
+    text-align: center;
+    font-weight: 100;
+    font-family: Roboto;
+    font-weight: bold;
+}
+
+h3 {
+    color: rgb(104, 100, 100);
+    margin: auto;
+    width:97%;
+    font-weight: 100;
+    
+ 
+}
+
+hr {
+    width: 100%;
+  
+}
+
+.row {
+    margin: 6px 20%;
+   
+}
+
+.gift-amt {
+    margin:5px 16% ;
+    
+}
+
+button {
+    width: 35%;
+    height: 39px;
+    background-color: white;
+    border-radius: 5px;
+    border-style: none;
+    border: 1px solid gray;
+    cursor: pointer;
+    
+}
+
+#inpGiftAmt:hover {
+    background-color: rgb(87, 130, 209);
+}
+
+button:nth-of-type(3) {
+    background-color: #1189c1;
+    color: white;
+}
+
+.txt-inside {
+    width: 45%;
+}
+
+form {
+    margin: 5px 15%;
+}
+
+select {
+    width: 10%;
+}
+
+#inpName {
+    width: 19.1%;
+}
+
+#inpEmail {
+    width: 61%;
+}
+
+#inpPhone {
+    width: 61%;
+}
+
+#inpCountry {
+    width: 60%;
+}
+
+textarea {
+    resize: none;
+    width: 59%;
+}
+
+
+#txtAreaAdj {
+    margin-left: 5px;
+    
+    }
+.city {
+    margin-left: 25px;
+}
+
+#inpCity {
+    width: 58%;
+}
+
+#drop-down3 {
+    width: 19%;
+}
+
+.link {
+  width: 65%;
+  float: right;
+   
+}
+.link a {
+    color: #1189c1;
+    
+}
+
+.payment-form {
+    width: 50%;
+    margin: auto;
+}
+
+#inpCardholder {
+    width: 50%;
+
+}
+
+.cardnumber {
+    margin-left: 25px;
+   
+}
+#inpCardNumber {
+    width: 50%;
+}
+
+
+.payment-card {
+    margin: 5px;
+    margin-left: 125px;
+ 
+}
+
+#inpExpiration {
+    width: 15%;
+
+}
+
+.expiry {
+    margin-left: 15px;
+}
+
+#inpSecurityCode {
+    width: 5%;
+}
+
+#inpComment {
+    width: 55%;
+
+}
+
+.txt-area {
+    margin-left: 55px;
+}
+
+textarea{
+    margin-left: 55px;
+    height: 55px;
+}
+
+.btn {
+    background-color: rgb(209, 144, 23);
+    cursor: pointer;
+    color: white;
+    height: 58px;
+    width: 25%;
+    margin-left: 75px;
+    font-size: 25px;
+}
+
+.btn:hover {
+    opacity: 0.5;
+}
+
+footer {
+  margin-top: 90px;  
+  background-color: rgba(0, 0, 0, 0.568);
+  color: white;
+  width: 100%;
+  height: 500px;
+  font-family: Roboto  ;
+
+}
+.social-media {
+    width: 35%;
+    float: left;
+    margin-left: 35px;
+    margin-top:35px;
+ 
+}
+
+.fa {
+    padding: 20px;
+    font-size: 70px;
+    width: 13px;
+    text-align: center;
+    margin: 6px 2px;
+    border-radius: 45%;
+  }
+
+  .fa:hover {
+      opacity: 0.7;
+  }
+
+  .fa-facebook {
+    background: rgb(228, 225, 225);
+    color: rgb(68, 66, 66);
+   
+  }
+
+  .fa-twitter {
+    background:  rgb(228, 225, 225);
+    color: rgb(68, 66, 66);
+  }
+
+  .fa-linkedin {
+    background:  rgb(228, 225, 225);
+    color:rgb(68, 66, 66);
+  }
+
+  .fa-youtube {
+    background:rgb(228, 225, 225);
+    color: rgb(68, 66, 66);
+  }
+
+  .fa-instagram {
+    background: rgb(228, 225, 225);
+    color: rgb(68, 66, 66);
+  }
+  
+.button-link {
+    width: 40%;
+    float: left;
+    margin-top:35px;
+    
+}
+
+.quick-links  {
+  width: 21%;
+  float: right;
+  margin-top:35px;
+
+  
+
+}
+
+.email-btn {
+    width: 50%;
+    background-color: #1189c1;
+    color:white;
+    font-weight: 500;
+    
+}
+
+.signup-btn {
+
+    width: 50%;
+    background-color: rgb(90, 187, 26);
+    color: white;
+}
+
+.quick-links h4 {
+    margin-left: 35px;
+}
+
+footer hr {
+    width: 85%;
+    margin-left: 5px;
+}
+
+ footer ul {
+    margin-right: 45px;
+    list-style: none;
+}
+
+ h5 {
+ width:85%;
+ float: right;
+font-weight: 100;
+margin-right: 85px;
+}
+
+section{
+    width: 100%;
+    height: 570px;
+}
+ .man-img {
+     width: 520px;
+ }
+
+ .run-img {
+    width: 520px;
+ }
+
+.images {
+  margin-left: 55px;
+}
+
+.left-image {
+    width: 50%;
+    float: left;
+   
+}
+
+.right-image {
+    width: 50%;
+    float: left;
+   
+}
+
+.event-1 {
+    color: rgb(78, 73, 73);
+}
+
+.event-2 {
+    color: rgb(78, 73, 73);
+}
+
+.first-event {
+    color: rgb(78, 73, 73);
+   margin-left: 75px;
+   padding-bottom: 25px;
+}
+
+
+.second-event {
+    color: rgb(78, 73, 73);
+   margin-left: 165px;
+   padding-bottom: 25px;
+}
+
+.btn-event1 {
+    background-color: #1189c1;
+    color: white;
+    margin-left: 75px;
+    height: 49px;
+    margin-top: 15px;
+
+}
+
+
+.btn-event2 {
+    background-color: #1189c1;
+    color: white;
+    margin-left: 135px;
+    height: 49px;
+    margin-top: 15px;
+
+}
+
+
+@media(min-width:1000px) and (max-width:1348px) {
+    header {
+        width: 100%;
+        border-bottom: 2px solid #84bd00;
+        height: 280px; 
+      
+      
+    }
+    
+    
+    .nav-list {
+      list-style: none;
+      font-size: 11px;
+      font-family: Roboto;
+      line-height: 40px;
+     
+      
+     
+    
+      
+     
+    
+    }
+    
+    .logo {
+        width: 150px;
+         height: 85px;
+      }
+    
+    
+    
+    
+    .list-one li {
+        display: inline-block;
+        font-weight: 100;
+        padding-left: 5px;
+       
+       
+      
+    
+       
+        
+        
+    }
+    
+    @font-face {
+        font-family: Roboto;
+        src: url(RobotoSlab.ttf);
+    }
+    
+    .list-one a {
+      
+        text-decoration: none;
+        color: black;
+       
+    }
+
+    
+    .current  {
+        border-right: 3px solid#84bd00;
+        
+    
+       
+     
+    }
+    
+   
+    
+    .donate {  
+      width: 58%;
+       text-align: center;
+      
+      
+     
+     
+     
+     
+    }
+    
+    
+    .image-1 {
+
+    margin-top: 5px;
+    float: left;  
+     
+    }
+    
+    .heading {
+       color: #1189c1;
+        text-align: center;
+        font-weight: 100;
+        font-family: Roboto;
+        font-weight: bold;
+    }
+    
+    h3 {
+        color: rgb(104, 100, 100);
+        margin: auto;
+        width:97%;
+        font-weight: 100;
+        
+     
+    }
+    
+    hr {
+        width: 100%;
+      
+    }
+    
+    .row {
+        margin: 6px 20%;
+       
+    }
+    
+    .gift-amt {
+        margin:5px 16% ;
+        
+    }
+    
+    button {
+        width: 35%;
+        height: 39px;
+        background-color: white;
+        border-radius: 5px;
+        border-style: none;
+        border: 1px solid gray;
+        cursor: pointer;
+        
+    }
+    
+    #inpGiftAmt:hover {
+        background-color: rgb(220, 232, 255);
+    }
+    
+    button:nth-of-type(3) {
+        background-color: #1189c1;
+        color: white;
+    }
+    
+    .txt-inside {
+        width: 45%;
+    }
+    
+    form {
+        margin: 5px 15%;
+    }
+    
+    select {
+        width: 10%;
+    }
+    
+    #inpName {
+        width: 19.1%;
+    }
+    
+    #inpEmail {
+        width: 61%;
+    }
+    
+    #inpPhone {
+        width: 61%;
+    }
+    
+    #inpCountry {
+        width: 60%;
+    }
+    
+    textarea {
+        resize: none;
+        width: 59%;
+    }
+    
+    .city {
+        margin-left: 25px;
+    }
+    
+    #inpCity {
+        width: 58%;
+    }
+    
+    #drop-down3 {
+        width: 19%;
+    }
+    
+    .link {
+      width: 65%;
+      float: right;
+       
+    }
+    .link a {
+        color: #1189c1;
+        
+    }
+    
+    .payment-form {
+        width: 50%;
+        margin: auto;
+    }
+    
+    #inpCardholder {
+        width: 50%;
+    
+    }
+    
+    .cardnumber {
+        margin-left: 25px;
+       
+    }
+    #inpCardNumber {
+        width: 50%;
+    }
+    
+    
+    .payment-card {
+        margin: 5px;
+        margin-left: 125px;
+     
+    }
+    
+    #inpExpiration {
+        width: 15%;
+    
+    }
+    
+    .expiry {
+        margin-left: 15px;
+    }
+    
+    #inpSecurityCode {
+        width: 5%;
+    }
+    
+    #inpComment {
+        width: 55%;
+    
+    }
+    
+    .txt-area {
+        margin-left: 55px;
+    }
+    
+    textarea{
+        margin-left: 55px;
+        height: 55px;
+    }
+    
+    .btn {
+        background-color: rgb(209, 144, 23);
+        cursor: pointer;
+        color: white;
+        height: 58px;
+        width: 25%;
+        margin-left: 75px;
+        font-size: 25px;
+    }
+    
+    .btn:hover {
+        opacity: 0.5;
+    }
+    
+    footer {
+      margin-top: 90px;  
+      background-color: rgba(0, 0, 0, 0.568);
+      color: white;
+      width: 100%;
+      height: 500px;
+    
+    }
+    .social-media {
+        width: 35%;
+        float: left;
+        margin-left: 25px;
+        margin-top:35px;
+     
+    }
+    .fa {
+        padding: 20px;
+        font-size: 70px;
+        width: 13px;
+        text-align: center;
+        margin: 6px 2px;
+        border-radius: 45%;
+      }
+    
+      .fa:hover {
+          opacity: 0.7;
+      }
+    
+      .fa-facebook {
+        background: rgb(228, 225, 225);
+        color: rgb(68, 66, 66);
+       
+      }
+    
+      .fa-twitter {
+        background:  rgb(228, 225, 225);
+        color: rgb(68, 66, 66);
+      }
+    
+      .fa-linkedin {
+        background:  rgb(228, 225, 225);
+        color:rgb(68, 66, 66);
+      }
+    
+      .fa-youtube {
+        background:rgb(228, 225, 225);
+        color: rgb(68, 66, 66);
+      }
+    
+      .fa-instagram {
+        background: rgb(228, 225, 225);
+        color: rgb(68, 66, 66);
+      }
+
+    .button-link {
+        width: 40%;
+        float: left;
+        margin-top:35px;
+        
+    }
+    
+    .quick-links  {
+      width: 21%;
+      float: right;
+      margin-top:35px;
+    
+      
+    
+    }
+    #txtAreaAdj {
+        margin-left: 5px;
+        
+        }
+    
+    .email-btn {
+        width: 50%;
+        background-color: #1189c1;
+        color:white;
+        font-weight: 500;
+        
+    }
+    
+    .signup-btn {
+    
+        width: 50%;
+        background-color: rgb(90, 187, 26);
+        color: white;
+    }
+    
+    .quick-links h4 {
+        margin-left: 35px;
+    }
+    
+    footer hr {
+        width: 85%;
+        margin-left: 5px;
+    }
+    
+     footer ul {
+        margin-right: 45px;
+        list-style: none;
+    }
+    
+     h5 {
+     width:85%;
+     float: right;
+    font-weight: 100;
+    margin-right: 85px;
+    }
+    
+    section{
+        width: 100%;
+        height: 470px;
+    }
+     .man-img {
+         width: 400px;
+     }
+    
+     .run-img {
+        width: 400px;
+     }
+    
+    .images {
+      margin-left: 55px;
+    }
+    
+    .left-image {
+        width: 50%;
+        float: left;
+       
+    }
+    
+    .right-image {
+        width: 50%;
+        float: left;
+       
+    }
+    
+    .event-1 {
+        color: rgb(78, 73, 73);
+    }
+    
+    .event-2 {
+        color: rgb(78, 73, 73);
+    }
+    
+    .first-event {
+        color: rgb(78, 73, 73);
+       margin-left: 75px;
+       padding-bottom: 25px;
+    }
+    
+    
+    .second-event {
+        color: rgb(78, 73, 73);
+       margin-left: 165px;
+       padding-bottom: 25px;
+    }
+    
+    .btn-event1 {
+        background-color: #1189c1;
+        color: white;
+        margin-left: 75px;
+        height: 49px;
+        margin-top: 15px;
+    
+    }
+    
+    
+    .btn-event2 {
+        background-color: #1189c1;
+        color: white;
+        margin-left: 135px;
+        height: 49px;
+        margin-top: 15px;
+    
+    }
+    
+}
+@media(min-width:700px) and (max-width:999px) {
+    header {
+        width: 100%;
+        border-bottom: 2px solid #84bd00;
+        height: 270px; 
+  
+      
+      
+    }
+    
+    
+    .nav-list {
+      list-style: none;
+      font-size: 15px;
+      font-family: Roboto;
+      line-height: 45px;
+     
+     
+    
+      
+     
+    
+    }
+    
+    .logo {
+        width: 150px;
+         height: 93px;
+      }
+    
+    
+    
+    
+    .list-one li {
+        display: inline-block;
+        font-weight: 100;
+        padding: 2px 17px;
+        
+        
+      
+    
+       
+        
+        
+    }
+    
+    @font-face {
+        font-family: Roboto;
+        src: url(RobotoSlab.ttf);
+    }
+    
+    .list-one a {
+        display: block;
+        text-decoration: none;
+        color: black;
+       
+       
+    }
+    
+   
+    
+    .donate {  
+       height: 75px;
+       width: 100%;
+      text-align: center;
+     
+     
+     
+    }
+
+    .current  {
+        border-right: 3px solid#84bd00;   
+     
+    }
+    
+    
+    
+    .image-1 {
+
+    margin-right: 15px;
+    float: left;
+     
+    }
+    
+    .heading {
+        color: #1189c1;
+        text-align: center;
+        font-weight: 100;
+        font-family: Roboto;
+        font-weight: bold;
+    }
+    
+    h3 {
+        color: rgb(104, 100, 100);
+        margin: auto;
+        width:97%;
+        font-weight: 100;
+        
+     
+    }
+    
+    hr {
+        width: 100%;
+      
+    }
+    
+    .row {
+        margin: 6px 20%;
+       
+    }
+    
+    .gift-amt {
+        margin:5px 16% ;
+        
+    }
+    
+    button {
+        width: 35%;
+        height: 39px;
+        background-color: white;
+        border-radius: 5px;
+        border-style: none;
+        border: 1px solid gray;
+        cursor: pointer;
+        
+    }
+    
+    #inpGiftAmt:hover {
+        background-color: rgb(220, 232, 255);
+    }
+    
+    button:nth-of-type(3) {
+        background-color:#1189c1;
+        color: white;
+    }
+    
+    .txt-inside {
+        width: 45%;
+    }
+    
+    form {
+        margin: 5px 15%;
+    }
+    
+    select {
+        width: 10%;
+    }
+    
+    #inpName {
+        width: 24.1%;
+    }
+    
+    #inpEmail {
+        width: 61%;
+    }
+    
+    #inpPhone {
+        width: 61%;
+    }
+    
+    #inpCountry {
+        width: 60%;
+    }
+    
+    
+#txtAreaAdj {
+margin-left: 5px;
+
+}
+
+
+
+  
+    
+    .city {
+        margin-left: 25px;
+    }
+    
+    #inpCity {
+        width: 58%;
+    }
+    
+    #drop-down3 {
+        width: 25%;
+    }
+
+    #InpZip {
+        width: 25%;
+    }
+    
+    .link {
+      width: 65%;
+      float: right;
+       
+    }
+    .link a {
+        color: #1189c1;
+        
+    }
+    
+    .payment-form {
+        width: 50%;
+        margin: auto;
+    }
+    
+    #inpCardholder {
+        width: 50%;
+    
+    }
+    
+    .cardnumber {
+        margin-left: 25px;
+       
+    }
+    #inpCardNumber {
+        width: 50%;
+    }
+    
+    
+    .payment-card {
+        margin: 5px;
+        margin-left: 125px;
+     
+    }
+    
+    #inpExpiration {
+        width: 15%;
+    
+    }
+    
+    .expiry {
+        margin-left: 15px;
+    }
+    
+    #inpSecurityCode {
+        width: 5%;
+    }
+    
+    #inpComment {
+        width: 55%;
+    
+    }
+    
+    .txt-area {
+        margin-left: 55px;
+    }
+    
+    textarea{
+        margin-left: 55px;
+        height: 55px;
+    }
+    
+    .btn {
+        background-color: rgb(209, 144, 23);
+        cursor: pointer;
+        color: white;
+        height: 58px;
+        width: 35%;
+        margin-left: 75px;
+        font-size: 25px;
+    }
+    
+    .btn:hover {
+        opacity: 0.5;
+    }
+    
+    footer {
+      margin-top: 190px;  
+      background-color: rgba(0, 0, 0, 0.568);
+      color: white;
+      width: 100%;
+      height: 500px;
+    
+    }
+    .social-media {
+        width: 35%;
+        float: left;
+        margin-left: 25px;
+        margin-top:35px;
+     
+    }
+    .fa {
+        padding: 20px;
+        font-size: 70px;
+        width: 13px;
+        text-align: center;
+        margin: 6px 2px;
+        border-radius: 45%;
+      }
+    
+      .fa:hover {
+          opacity: 0.7;
+      }
+    
+      .fa-facebook {
+        background: rgb(228, 225, 225);
+        color: rgb(68, 66, 66);
+       
+      }
+    
+      .fa-twitter {
+        background:  rgb(228, 225, 225);
+        color: rgb(68, 66, 66);
+      }
+    
+      .fa-linkedin {
+        background:  rgb(228, 225, 225);
+        color:rgb(68, 66, 66);
+      }
+    
+      .fa-youtube {
+        background:rgb(228, 225, 225);
+        color: rgb(68, 66, 66);
+      }
+    
+      .fa-instagram {
+        background: rgb(228, 225, 225);
+        color: rgb(68, 66, 66);
+      }
+
+    .button-link {
+        width: 40%;
+        float: left;
+        margin-top:35px;
+        
+    }
+    
+    .quick-links  {
+      width: 21%;
+      float: right;
+      margin-top:35px;
+    
+      
+    
+    }
+    
+    .email-btn {
+        width: 50%;
+        background-color: #1189c1;
+        color:white;
+        font-weight: 500;
+        
+    }
+    
+    .signup-btn {
+    
+        width: 50%;
+        background-color: rgb(90, 187, 26);
+        color: white;
+    }
+    
+    .quick-links h4 {
+        margin-left: 35px;
+    }
+
+    footer {
+        font-family: Roboto;
+    }
+    
+    footer hr {
+        width: 100%;
+        
+    }
+    
+     footer ul {
+        margin-right: 55px;
+        list-style: none;
+    }
+    
+     h5 {
+     width:85%;
+     float: right;
+    font-weight: 100;
+    margin-right: 85px;
+    }
+    
+    section{
+        width: 100%;
+        height: 800px;
+        margin-left: 20px;
+    }
+     .man-img {
+         width: 420px;
+     }
+    
+     .run-img {
+        width: 420px;
+     }
+    
+    .images {
+      margin-left: 95px;
+    }
+    
+    .left-image {
+        width: 70%;
+        float: left;
+       
+    }
+    
+    .right-image {
+        width: 60%;
+        float: left;
+       
+    }
+    
+    .event-1 {
+        color: rgb(78, 73, 73);
+        font-size: 17px;
+        margin-left: 25px;
+     
+        
+    }
+    
+    .event-2 {
+        color: rgb(78, 73, 73);
+        font-size: 17px;
+        margin-left: 25px;
+    }
+    
+    .first-event {
+        color: rgb(78, 73, 73);
+       margin-left: 65px;
+       padding-bottom: 25px;
+    }
+    
+    
+    .second-event {
+        color: rgb(78, 73, 73);
+       margin-left: 85px;
+       padding-bottom: 15px;
+    }
+    
+    .btn-event1 {
+        background-color: #1189c1;
+        color: white;
+        margin-left: 75px;
+        height: 49px;
+        margin-bottom: 25px;
+        margin-top: 5px;
+        width: 40%;
+     
+    
+    }
+    
+    
+    .btn-event2 {
+        background-color: #1189c1;
+        color: white;
+        margin-left: 75px;
+        height: 49px;
+        margin-top: 5px;
+        width: 48%;
+        margin-bottom: 25px;
+    
+    }
+}
+
+
+@media(max-width:699px)  {
+    header {
+        width: 100%;
+        border-bottom: 2px solid #84bd00;
+        height: 750px; 
+      
+      
+    }
+    
+    
+    .nav-list {
+      list-style: none;
+      font-family: Roboto;
+  
+    
+    }
+
+   
+    
+    .logo {
+        width: 190px;
+         height: 106px;
+      }
+    
+      ul {
+       position: relative;
+        height: 100vh;
+        top: 80px;
+        left: 0;
+        right: 0;
+        text-align: center;
+        
+
+    }
+    
+    
+    .list-one li {
+        display: block;
+        font-weight: 100;
+        height: 15px;
+        padding: 30px ;
+      
+     
+       
+      
+      
+    
+       
+        
+        
+    }
+    
+    @font-face {
+        font-family: Roboto;
+        src: url(RobotoSlab.ttf);
+    }
+    
+    .list-one a {
+        display: block;
+        text-decoration: none;
+        color: black;
+        font-size: 18px;
+        
+       
+    }
+
+    .current {
+        border-style: none;
+        
+        
+    }
+   
+    
+    .donate {  
+       height: 59px;
+       width: 95%;
+       text-align: center;
+     
+     
+     
+     
+    }
+    
+    
+    .image-1 {
+        position:absolute;
+        margin-left: 35.3%;
+        border: 1px solid rgb(110, 24, 24);
+        border-width: 5px;
+        border-radius: 5px;
+        padding: 5px 5px 5px 10px ;
+        top: 0;
+        left: 0;
+       
+        
+     
+    }
+    
+    .heading {
+        color:#1189c1;
+        text-align: center;
+        font-weight: 100;
+        font-family: Roboto;
+        font-weight: bold;
+    }
+    
+    h3 {
+        color: rgb(104, 100, 100);
+        width:100%;
+        font-weight: 100;
+        font-size: x-large;
+        
+     
+    }
+    
+    hr {
+        width: 100%;
+      
+    }
+    
+    .row {
+        margin: 6px 20%;
+       
+    }
+    .gift {
+        margin-left: 95px;
+    }
+    
+    .gift-amt {
+        margin:5px 14% ;
+        
+    }
+    
+    button {
+        width: 100%;
+        height: 39px;
+        background-color: white;
+        border-radius: 5px;
+        border-style: none;
+        border: 1px solid gray;
+        cursor: pointer;
+        
+    }
+    
+    #inpGiftAmt:hover {
+        background-color: rgb(220, 232, 255);
+    }
+    
+    button:nth-of-type(3) {
+        background-color: #1189c1;
+        color: white;
+    }
+    
+    .txt-inside {
+        width: 45%;
+    }
+    
+    form {
+        margin: 5px 1%;
+    }
+    
+    select {
+        width: 100%;
+        height: 30px;
+        margin-bottom: 15px;
+    }
+    
+    #inpName {
+        width: 100%;
+        height: 30px;
+        margin-bottom: 15px;
+    }
+    
+    #inpEmail {
+        width: 100%;
+        height: 30px;
+        margin-bottom: 15px;
+    }
+    
+    
+    #inpPhone {
+        width: 100%;
+        height: 30px;
+        margin-bottom: 15px;
+    }
+    
+    #inpCountry {
+        width: 100%;
+        height: 30px;
+        margin-bottom: 15px;
+    }
+    
+    
+#txtAreaAdj {
+width: 100%;
+margin-right: 10px;
+
+}
+
+
+
+  .city {
+      margin: 5px;
+  }
+    
+   
+
+    
+    #inpCity {
+        width: 100%;
+        height: 30px;
+        margin-bottom: 15px;
+    }
+    
+    #drop-down3 {
+        width: 100%;
+        height: 30px;
+        margin-bottom: 15px;
+    }
+
+    #InpZip {
+        width: 100%;
+        height: 30px;
+        margin-bottom: 15px;
+    }
+    
+    .link {
+      width: 75%;
+      float: right;
+       
+    }
+    .link a {
+        color: #1189c1;
+        
+    }
+ 
+    
+    #inpCardholder {
+        width: 100%;
+        height: 30px;
+        margin-bottom: 15px;
+    
+    }
+    
+    .cardnumber {
+        width: 100%;
+        margin-left: 2px;
+        
+       
+    }
+    #inpCardNumber {
+        width: 100%;
+        height: 30px;
+        margin-bottom: 15px;
+    }
+    
+    
+    .payment-card {
+        display: block;
+        width: 100%;
+        margin-left: 17px;
+      
+       
+     
+    }
+    
+    #inpExpiration {
+        width: 100%;
+        height: 30px;
+        margin-bottom: 15px;
+    
+    }
+    
+    .expiry {
+        margin-left: 15px;
+    }
+    
+    #inpSecurityCode {
+        width: 100%;
+        height: 30px;
+        margin-bottom: 15px;
+    }
+
+    
+.txt-area {
+    margin-left: 15px;
+}
+  
+    
+  
+    
+    textarea{
+        width: 100%;
+        margin-bottom: 15px;
+        margin-left: 15px;
+        height: 70px;
+
+    }
+    
+    .btn {
+        background-color: rgb(209, 144, 23);
+        cursor: pointer;
+        color: white;
+        height: 58px;
+        width: 55%;
+        margin-left: 15px;
+        font-size: 25px;
+    }
+    
+    .btn:hover {
+        opacity: 0.5;
+    }
+    
+    footer {
+     
+      background-color: rgba(0, 0, 0, 0.568);
+      color: white;
+      width: 100%;
+     height: 900px;
+    
+    }
+    .social-media {
+        width:40%;
+        float: left;
+        margin-left: 25px;
+        margin-top:35px;
+     
+    }
+
+    .fa {
+        padding: 20px;
+        font-size: 70px;
+        width: 13px;
+        text-align: center;
+        margin: 6px 2px;
+        border-radius: 45%;
+      }
+    
+      .fa:hover {
+          opacity: 0.7;
+      }
+    
+      .fa-facebook {
+        background: rgb(228, 225, 225);
+        color: rgb(68, 66, 66);
+       
+      }
+    
+      .fa-twitter {
+        background:  rgb(228, 225, 225);
+        color: rgb(68, 66, 66);
+      }
+    
+      .fa-linkedin {
+        background:  rgb(228, 225, 225);
+        color:rgb(68, 66, 66);
+      }
+    
+      .fa-youtube {
+        background:rgb(228, 225, 225);
+        color: rgb(68, 66, 66);
+      }
+    
+      .fa-instagram {
+        background: rgb(228, 225, 225);
+        color: rgb(68, 66, 66);
+      }
+    .button-link {
+        width: 20%;
+        float: left;
+        margin-top:35px;
+        
+    }
+    
+    .quick-links  {
+      width:29%;
+      float: right;
+      margin-top:37px;
+      cursor: pointer;
+    
+      
+    
+    }
+    
+    .email-btn {
+        width: 100%;
+        background-color: #1189c1;
+        color:white;
+        font-weight: 500;
+        cursor: pointer;
+        
+    }
+    
+    .signup-btn {
+    
+        width: 100%;
+        background-color: rgb(90, 187, 26);
+        color: white;
+        cursor: pointer;
+    }
+    
+    .quick-links h4 {
+        margin-left: 5px;
+    }
+
+    footer {
+        font-family: Roboto;
+        font-size: large;
+    }
+    
+    footer hr {
+        width: 100%;
+        
+    }
+    
+     footer ul {
+        margin-right: 55px;
+        list-style: none;
+    }
+    
+     h5 {
+     width:75%;
+     float: right;
+    font-weight: 100;
+    margin-right: 45px;
+    }
+    
+    section{
+        width: 100%;
+        height: 1100px;
+        margin-left: 2px;
+    }
+     .man-img {
+         width: 100%;
+     }
+    
+     .run-img {
+        width: 100%;
+     }
+    
+    .images {
+      margin-left: 2px;
+    }
+    
+    .left-image {
+        width: 100%;
+     
+       
+    }
+    
+    .right-image {
+        width: 100%;
+        float: left;
+       
+    }
+     
+    .event-1 {
+        color: rgb(78, 73, 73);
+        font-size: larger;
+        margin-left: 65px;
+     
+        
+    }
+    
+    .event-2 {
+        color: rgb(78, 73, 73);
+        font-size: larger;
+        margin-left: 65px;
+    }
+    
+    .first-event {
+        color: rgb(78, 73, 73);
+       margin-left: 75px;
+       padding-bottom: 25px;
+    }
+    
+    
+    .second-event {
+        color: rgb(78, 73, 73);
+       margin-left: 85px;
+       padding-bottom: 15px;
+    }
+    
+    .btn-event1 {
+        background-color: #1189c1;
+        color: white;
+        margin-left: 115px;
+        height: 49px;
+        margin-bottom: 25px;
+        margin-top: 5px;
+        width: 40%;
+     
+    
+    }
+    
+    
+    .btn-event2 {
+        background-color: #1189c1;
+        color: white;
+        margin-left: 115px;
+        height: 49px;
+        margin-top: 5px;
+        width: 40%;
+        margin-bottom: 25px;
+    
+    }
+}

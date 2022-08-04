@@ -1,0 +1,224 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Boys & Girls Club Chicago</title>
+    <link rel="stylesheet" href="css/styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+<body>
+    <header>
+        <div class="image-1">
+        <img src="images/logo.png" alt="logo" class="logo">
+    </div>
+
+    
+        <nav class="nav-list">
+           
+            <ul class="list-one">
+                <li><a href="#" class="current" style="color: #1189c1;"><b>OUR CLUBS</b></a></li>
+                <li><a href="#" class="current" style="color: #1189c1;"><b>WAYS TO GIVE</b></a></li>
+                <li><a href="#">ABOUT US</a></li>
+                
+                <li><a href="#">GET INVOLVED</a></li>
+                <li><a href="#">CHILD SAFETY</a></li>
+                <li><a href="#">CONTACT US</a></li>
+                <li><a href="#">TRANSLATOR</a></li>
+                <li><a href="#" style="background-color: #84bd00 ; color: white;" class="donate"><b>DONATE</b></a></li>
+
+            </ul>
+           
+         
+        </nav>
+        
+       
+    </header>
+<br><br>
+    <h1 class="heading">Your Gift Will Make a Positive Impact, Now More Than Ever</h1>
+    
+<div class="row">
+    <br> <br>
+    <h3>Donation</h3>
+    
+    <hr>
+    <br>
+    <label for="" class="gift">Gift amount:
+    <div class="gift-amt">
+      
+  <button type="button" id="inpGiftAmt"> <b>$25</b></button>
+  <br> <br>
+  <button type="button" id="inpGiftAmt"><b>$50</b></button>
+  <br> <br>
+  <button type="button" id="inpGiftAmt"><b>$100</b></button>
+  <br> <br>
+ <button type="button" id="inpGiftAmt"> <b>$150</b></button>
+ <br> <br>
+ <button type="button" id="inpGiftAmt"><b>$500</b></button>
+ <br> <br>
+ <button type="button" id="inpGiftAmt"><b>1000</b></button>
+ <br> <br>
+ <button type="button" id="inpGiftAmt"><span class="other"> 
+     Other</span>
+    <input type="text" class="txt-inside" placeholder="$"></button>
+</div>
+
+<br>
+<h3>Recurring Gift</h3>
+<hr>
+<br>
+<input type="checkbox" checked> Make this a monthly Gift
+<br><br> <br>
+
+
+<h3>Tribute Gift</h3>
+<hr>
+<br>
+<input type="checkbox" checked> This gift is in honor,memory, or support of someone
+<br><br> <br>
+
+
+<h3>Billing Details</h3>
+<hr>
+<br>
+<input type="checkbox" checked> Make this gift on behalf of an organization <br> <br>
+<form >
+   <div class="form-control" >
+    <label for="inpName">Name:</label>
+    <select name="title">
+        <option value="">title</option>
+     </select>
+   
+     <input type="text" id="inpName" placeholder="first name">
+     <input type="text" id="inpName" placeholder="last name">
+
+     <br> <br>
+     
+     <label for="inpEmail">Email:</label>
+     <input type="text" id="inpEmail">
+     <br><br>
+
+
+   
+     <label for="inpPhone">Phone:</label>
+     <input type="text" id="inpPhone" >
+     <br><br>
+  
+     <label for="inpCountry">Country:</label>
+     <select name="country" id="inpCountry" >
+        <option value="">UNITED  STATES</option>
+     </select>
+      <br><br>
+      <label for="txtAreaAdj" class="txtArea-ad">Address:</label>
+      <textarea name="" id="txtAreaAdj" ></textarea>
+<br><br>
+     <label for="inpCity" class="city">City:</label>
+     <input type="text" id="inpCity">
+     <br><br>
+
+     <label for="drop-down3">State & zip:</label>
+     <select name="state" id="drop-down3" >
+        <option value="">state</option>
+     </select>
+
+     <input type="text" id="InpZip" placeholder="zip">
+    </div>
+     <br><br>
+    
+    </form>
+    <input type="checkbox" > I would like this gift to remain anonymous
+<br><br><br>
+
+    <h3>Payment Details</h3>
+<hr>
+</div>
+<br>
+<div class="link">
+<a href="#">Payment Processed by Blackbaud</a> </div>
+<br><br>
+<form action="" class="payment-form  " >
+    <label for="inpCardholder">Cardholder name:</label>
+    <input type="text" id="inpCardholder">
+    <br> <br>
+    <label for="inpCardNumber" class="cardnumber">Card number:</label>
+    <input type="text" id="inpCardNumber">
+    <br>
+    <div class="payment-card">
+    <img src="images/visa_normal.png" alt="card" >
+    <img src="images/amex_normal.png" alt="card">
+    <img src="images/discover_normal.png" alt="card">
+    <img src="images/mastercard_normal.png" alt="card">
+</div>
+     <br>
+    <label for="inpExpiration" class="expiry">Expiration:</label>
+    <select name="month" id="inpExpiration">
+        <option value="">month</option>
+     </select>
+
+     <select name="year" id="inpYear">
+        <option value="" >year</option>
+     </select>
+&nbsp;&nbsp; &nbsp;
+     <label for="inpSecurityCode">CSC:</label>
+     <input type="text" id="inpSecurityCode" >
+     <img src="images/bboxhelp.png" alt="what is this" class="bbox-help">
+     <br><br>
+     <label for="inpComment"class="txt-area">Leave a comment(optional):</label>
+     <br>
+     <textarea name="comment" id="inpComment" placeholder="optional"  ></textarea>
+
+     <br><br>
+     <button type="button" class="btn"><b>Donate</b></button>
+    
+
+</form>
+
+
+<footer>
+    <div class="social-media">
+        <h4>CONNECT WITH US</h4>
+        <a href="#" class="fa fa-facebook"></a>
+        <a href="#" class="fa fa-twitter"></a>
+        <a href="#" class="fa fa-linkedin"></a>
+        <a href="#" class="fa fa-youtube"></a>
+        <a href="#" class="fa fa-instagram"></a>
+    </div>
+
+    <div class="button-link">
+        <h4>KEEP IN TOUCH</h4>
+        <p>Join our email list and stay up to<br> date  on what's happening at Boys <br> & Girls Clubs of Chicago</p>
+        <button type="button" class="email-btn">email address</button> <br> <br>
+        <button type="button" class="signup-btn">Sign Up</button>
+    </div>
+    <div class="quick-links">
+        <h4>QUICK LINKS</h4>
+        <ul>
+            <li>Donate</li>
+            <hr>
+         
+            <li>Attend an Event</li>
+          <hr>
+            <li>Find a Club</li>
+            <hr>
+         
+            <li>Pressroom</li>
+            <hr>
+         
+            <li>Contact Us</li>
+            <hr>
+         
+        </ul>
+    </div>
+    <h5 class="copyright"> &copy;2019 Boys & Girls Clubs of Chicago - All Rights Reserved</h5>
+</footer>
+
+<!--
+
+
+
+-->
+
+<script src="js/script.js"></script>
+</body>
+</html>
